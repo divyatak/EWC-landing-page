@@ -48,7 +48,7 @@
       background-size: cover;
       background-position: center;
       opacity: 0;
-      animation: crossfade 21s ease-in-out infinite;
+      animation: crossfade 63s ease-in-out infinite;
     }
 
     .atmosphere__layer--1 {
@@ -57,20 +57,50 @@
     }
 
     .atmosphere__layer--2 {
-      background-image: url('assets/private-bay.jpg');
+      background-image: url('assets/golf-sim.jpg');
       animation-delay: -7s;
     }
 
     .atmosphere__layer--3 {
-      background-image: url('assets/rooftop.jpg');
+      background-image: url('assets/private-bay.jpg');
       animation-delay: -14s;
+    }
+
+    .atmosphere__layer--4 {
+      background-image: url('assets/entry.jpg');
+      animation-delay: -21s;
+    }
+
+    .atmosphere__layer--5 {
+      background-image: url('assets/wedding.jpg');
+      animation-delay: -28s;
+    }
+
+    .atmosphere__layer--6 {
+      background-image: url('assets/rooftop.jpg');
+      animation-delay: -35s;
+    }
+
+    .atmosphere__layer--7 {
+      background-image: url('assets/roof-deck.jpg');
+      animation-delay: -42s;
+    }
+
+    .atmosphere__layer--8 {
+      background-image: url('assets/qbr.jpg');
+      animation-delay: -49s;
+    }
+
+    .atmosphere__layer--9 {
+      background-image: url('assets/10-raw.jpg');
+      animation-delay: -56s;
     }
 
     @keyframes crossfade {
       0%   { opacity: 0;    transform: scale(1); }
-      8%   { opacity: 0.2;  transform: scale(1.01); }
-      30%  { opacity: 0.2;  transform: scale(1.04); }
-      38%  { opacity: 0;    transform: scale(1.05); }
+      2.5% { opacity: 0.2;  transform: scale(1.01); }
+      9%   { opacity: 0.2;  transform: scale(1.04); }
+      12%  { opacity: 0;    transform: scale(1.05); }
       100% { opacity: 0;    transform: scale(1); }
     }
 
@@ -336,15 +366,21 @@
     <div class="atmosphere__layer atmosphere__layer--1"></div>
     <div class="atmosphere__layer atmosphere__layer--2"></div>
     <div class="atmosphere__layer atmosphere__layer--3"></div>
+    <div class="atmosphere__layer atmosphere__layer--4"></div>
+    <div class="atmosphere__layer atmosphere__layer--5"></div>
+    <div class="atmosphere__layer atmosphere__layer--6"></div>
+    <div class="atmosphere__layer atmosphere__layer--7"></div>
+    <div class="atmosphere__layer atmosphere__layer--8"></div>
+    <div class="atmosphere__layer atmosphere__layer--9"></div>
   </div>
 
   <!-- Content -->
   <main class="page">
     <img src="assets/logo.png" alt="East | West Club" class="logo">
 
-    <p class="tagline"><span>Sport.</span> <span>Soul.</span> <span>Social.</span></p>
+    <p class="tagline"><span>Golf.</span> <span>Social.</span> <span>Wellness.</span></p>
 
-    <p class="location">Queen Anne, Seattle &nbsp;&middot;&nbsp; Opening Soon</p>
+    <p class="location">Seattle &nbsp;&middot;&nbsp; Opening Soon</p>
 
     <!-- TODO: Replace YOUR_FORM_ID with your Formspree form ID (free at formspree.io) -->
     <div class="signup" id="signupWrap">
